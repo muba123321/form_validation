@@ -11,7 +11,7 @@ function clearError() {
   errorDisplay.style.display = "none";
 }
 
-// use helper function to handle form submit for registration form
+// use helper function to handle form submit for registration form and logon form
 registrationForm.addEventListener("submit", validateRegistration);
 loginForm.addEventListener("submit", validateLogin);
 
